@@ -1,0 +1,75 @@
+{
+  "name": "tilt.js",
+  "version": "1.2.1",
+  "description": "A tiny requestAnimationFrame powered 60+fps lightweight parallax tilt effect for jQuery.",
+  "main": "./src/tilt.jquery.js",
+  "scripts": {
+    "test": "node ./node_modules/jshint/bin/jshint src/tilt.jquery.js && gulp test --verbose --force"
+  },
+  "files": [
+    "*/**"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gijsroge/tilt.js.git"
+  },
+  "author": {
+    "name": "gijsroge",
+    "email": "rogegijs@gmail.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/gijsroge/tilt.js",
+  "devDependencies": {
+    "autoprefixer": "6.3.6",
+    "babel-preset-env": "^1.1.8",
+    "browser-sync": "2.16.0",
+    "gulp": "3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-plumber": "1.1.0",
+    "gulp-postcss": "6.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.4.0",
+    "gulp-uglify": "^2.0.1",
+    "gulp-watch": "4.3.6",
+    "jshint": "^2.9.3",
+    "node-qunit-phantomjs": "^1.4.0",
+    "postcss-reporter": "1.3.3",
+    "postcss-scss": "0.1.8",
+    "qunitjs": "^2.0.1",
+    "require-dir": "0.3.0"
+  },
+  "dependencies": {
+    "jquery": "^3.1.1"
+  },
+  "gitHead": "81bee02e47d762399f82bdb8a8692d296eb8d857",
+  "bugs": {
+    "url": "https://github.com/gijsroge/tilt.js/issues"
+  },
+  "_id": "tilt.js@1.2.1",
+  "_npmVersion": "5.3.0",
+  "_nodeVersion": "7.0.0",
+  "_npmUser": {
+    "name": "gijsroge",
+    "email": "rogegijs@gmail.com"
+  },
+  "dist": {
+    "integrity": "sha512-IGRh3FJbq6BRH2ETb2KxDWont2k740oR+0QMs39QVkjnr7QmA6L1VzSKsOLgFXg5QNtHyRKp7vzFoJCYxgzsJA==",
+    "shasum": "7d140ecb06744192815735e538b02739fe24d92f",
+    "tarball": "https://registry.npmjs.org/tilt.js/-/tilt.js-1.2.1.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "gijsroge",
+      "email": "rogegijs@gmail.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/tilt.js-1.2.1.tgz_1510226045879_0.7449175012297928"
+  },
+  "directories": {},
+  "_shasum": "7d140ecb06744192815735e538b02739fe24d92f",
+  "_resolved": "https://registry.npmjs.org/tilt.js/-/tilt.js-1.2.1.tgz",
+  "_from": "tilt.js@*"
+}
